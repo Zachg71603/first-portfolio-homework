@@ -24,7 +24,7 @@ p{
 .header {
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 15px;
     justify-content: center;
     background-color: lightblue;
     color: yellow;
@@ -40,5 +40,21 @@ nav{
     padding: 5px 20%;
     border-bottom: 10px solid black;
     border-top: 10px solid black;
-    background-color: purple;
+    background-color: white;
+}
+
+li{
+    display: inline;
+    text-decoration: dotted;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 50px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 5px;
+}
+
+li:hover{
+    border-style: none;
+    color: green;
 }
