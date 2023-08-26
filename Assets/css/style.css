@@ -11,6 +11,12 @@ main{
     flex-wrap: wrap;
 }
 
+h1{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .Zachary{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
@@ -71,3 +77,43 @@ section{
     text-align: center;
 }
 
+h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+
+}
+
+a{
+    font-weight: 100%;
+    font-size: 25px;
+    color: black;
+}
+.zdg-picture{
+    display: inline-flex;
+    border-style: solid;
+    border-color: pink;
+    border-radius: 6%;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+}
+
+.refactor-screenshot{
+    display: inline-flex;
+    border-style: solid;
+    border-color: pink;
+    border-radius: 6%;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+}
+
+form{
+    font-size: 15px;
+    background-color: yellow;
+    padding: 10px;
+    
+}
