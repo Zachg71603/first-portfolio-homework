@@ -117,3 +117,41 @@ form{
     padding: 10px;
     
 }
+
+#contact-me{
+    align-content: center;
+    padding: 15px;
+    background-color: darkblue;
+}
+
+.fa{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+
+}
+
+.fa-github{
+    color: white;
+    background: black;
+}
+
+.fa-instagram{
+    color: white;
+    background: purple;
+}
+
+.fa-slack{
+    color: white;
+    background: red;
+}
+
+#top:hover{
+    opacity: .5;
+}
+
+.fa:hover{
+    opacity: 0.8;
+}
