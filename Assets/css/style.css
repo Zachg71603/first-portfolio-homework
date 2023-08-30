@@ -7,7 +7,7 @@
 }
 
 main{
-    background-color: palevioletred;
+    background-color: lightblue;
     flex-wrap: wrap;
 }
 
@@ -32,8 +32,8 @@ p{
     flex-wrap: wrap;
     padding: 15px;
     justify-content: center;
-    background-color: lightblue;
-    color: yellow;
+    background-color: navy;
+    color: black;
     font-weight: 100px;
 
 }
@@ -46,7 +46,8 @@ nav{
     padding: 5px 20%;
     border-bottom: 10px solid black;
     border-top: 10px solid black;
-    background-color: white;
+    background-color: lightyellow;
+    font-weight: bolder;
 }
 
 li{
@@ -73,7 +74,7 @@ section{
     border-left: 10px;
     border-right: 10px;
     border-top: 10px;
-    background-color: red;
+    background-color:navy;
     text-align: center;
 }
 
@@ -81,6 +82,7 @@ h2{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
+    
 
 }
 
@@ -92,7 +94,7 @@ a{
 .zdg-picture{
     display: inline-flex;
     border-style: solid;
-    border-color: pink;
+    border-color: white;
     border-radius: 6%;
     width: 450px;
     margin-left: auto;
@@ -103,7 +105,7 @@ a{
 .refactor-screenshot{
     display: inline-flex;
     border-style: solid;
-    border-color: pink;
+    border-color: white;
     border-radius: 6%;
     width: 450px;
     margin-left: auto;
@@ -113,7 +115,7 @@ a{
 
 form{
     font-size: 15px;
-    background-color: yellow;
+    background-color:lightyellow;
     padding: 10px;
     
 }
@@ -121,7 +123,7 @@ form{
 #contact-me{
     align-content: center;
     padding: 15px;
-    background-color: darkblue;
+    background-color: b;
 }
 
 .fa{
@@ -145,7 +147,7 @@ form{
 
 .fa-slack{
     color: white;
-    background: red;
+    background: green;
 }
 
 #top:hover{
@@ -155,3 +157,62 @@ form{
 .fa:hover{
     opacity: 0.8;
 }
+
+@media screen and (max-width: 676px){
+    .zdg-picture{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 676px){
+    .refactor-screenshot{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1550px){
+    .links li{
+        width: 100%;
+        display: block;
+        margin: auto;
+        padding: none;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 676px){
+    .links a{
+        font-size: 5vw;
+        margin: auto;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 676px){
+    .header h1{
+        justify-content: center;
+        font-size: 14vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 676px){
+    section h2 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 750px){
+    #about-me p{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 676px){
+    .fa{
+        width: 20vw;
+        margin: auto;
+    }
+}
+
