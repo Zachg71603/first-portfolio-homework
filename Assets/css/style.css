@@ -7,7 +7,7 @@
 }
 
 main{
-    background-color: lightblue;
+    background-color: navy;
     flex-wrap: wrap;
 }
 
@@ -25,14 +25,15 @@ h1{
 
 p{
     font-weight: bold;
+    padding: 10px;
 }
-
+/* i played w the header for awhile but this code is what I went with because I wanted it to be visible and simple */
 .header {
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
     justify-content: center;
-    background-color: navy;
+    background-color: lightblue;
     color: black;
     font-weight: 100px;
 
@@ -46,18 +47,21 @@ nav{
     padding: 5px 20%;
     border-bottom: 10px solid black;
     border-top: 10px solid black;
-    background-color: lightyellow;
-    font-weight: bolder;
+    background-color: lightpink;
+    
 }
-
+/* this was where I had trouble
+I wanted this to display inline but it kept going to block
+I still like how it looks though
+main focus here was mmaking sure the li took you to that part of the page and that they are easily visible to a person visiting my page */
 li{
     display: inline;
     text-decoration: dotted;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 30px;
     margin: 50px;
     border-style: outset;
-    border-color: black;
+    border-color:solid black;
     border-radius: 5px;
 }
 
@@ -65,7 +69,8 @@ li:hover{
     border-style: none;
     color: green;
 }
-
+/* wanted the sections to be more in the middle of the page, hence me aligning them to the center
+feel there may be a more efficent way to do the border, but once I liked it I left it alone */
 section{
     font-size: 25px;
     width: 70%;
@@ -74,7 +79,7 @@ section{
     border-left: 10px;
     border-right: 10px;
     border-top: 10px;
-    background-color:navy;
+    background-color:lightblue;
     text-align: center;
 }
 
@@ -82,6 +87,7 @@ h2{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
+    padding: 10px;
     
 
 }
@@ -101,31 +107,37 @@ a{
     margin-right: auto;
     border-width: 5px;
 }
-
+/* was playing w both the pictures for awhile and found inline-flex gave me the look I was aiming for
+wanted the pictures to be prominenly on the page but not so big that they are obnoxious */
 .refactor-screenshot{
     display: inline-flex;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     border-radius: 6%;
     width: 450px;
     margin-left: auto;
     margin-right: auto;
     border-width: 5px;
 }
-
+/* creating a contact me form
+I think they are cool and I think mine turned out good
+I didn't do to many changes to the form just size/color
+ */
 form{
     font-size: 15px;
-    background-color:lightyellow;
-    padding: 10px;
+    background-color:lightblue;
+    padding: 15px;
     
 }
 
 #contact-me{
     align-content: center;
     padding: 15px;
-    background-color: b;
+    background-color: lightpink;
 }
-
+/* One of my coding friends helped me out with this part since I wanted to use logos
+here I am simply adding the color and size of my social buttons
+ */
 .fa{
     padding: 20px;
     text-decoration: none;
@@ -157,6 +169,11 @@ form{
 .fa:hover{
     opacity: 0.8;
 }
+
+/* all of the media screens are to make my page look how I want on different scree sizes
+main problem I had was w/ the li
+I want it to be inline I feel that looks better, but I can't seem to get it right, so I think it still looks good as is
+ */
 
 @media screen and (max-width: 676px){
     .zdg-picture{
@@ -216,3 +233,6 @@ form{
     }
 }
 
+/* definitely struggled a bit on the media screens, but after playing w it on dev tools I think that my site should 
+look as I intend 
+would highly recommend using dev tools to do this part and play around w it until you find what you like*/
